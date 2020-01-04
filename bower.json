@@ -1,0 +1,23 @@
+{
+  "name": "plugs",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "İsmayıllı Zaur",
+    "Talbov Cavidan",
+    "Ruslanova Nuriyya"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^3.3.1",
+    "components-bootstrap": "~3.0.0"
+  }
+}

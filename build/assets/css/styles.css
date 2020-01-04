@@ -1,0 +1,1204 @@
+/*
+=====================================================
+                    =    reset starts   =
+=====================================================
+*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+.overflow-hidden {
+  overflow: hidden; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+.display-block {
+  display: block;
+  width: 100%; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none; }
+
+a:link {
+  text-decoration: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  outline: none !important;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+ul li {
+  display: inline-block;
+  list-style-type: none;
+  vertical-align: middle; }
+
+h1 {
+  font-size: 2em; }
+
+h2 {
+  font-size: 1.5em; }
+
+h3 {
+  font-size: 1.17em; }
+
+h4 {
+  font-size: 1.33em; }
+
+h5 {
+  font-size: 0.83em; }
+
+h6 {
+  font-size: 0.67em; }
+
+button {
+  background-color: transparent;
+  outline: none !important;
+  padding: 0;
+  margin: 0;
+  border: none;
+  cursor: pointer; }
+
+.padding-bottom-0 {
+  padding-bottom: 0px !important; }
+
+.full-height {
+  height: 100%; }
+
+.full-width {
+  width: 100%; }
+
+.full {
+  width: 100%;
+  height: 100%; }
+
+.relative {
+  position: relative; }
+
+input[type="password"] {
+  -webkit-text-security: disc; }
+
+/*
+=====================================================
+                    =    fonts starts   =
+=====================================================
+*/
+/* fonts starts*/
+/* Averta */
+/* fonts starts */
+/* Averta */
+@font-face {
+  font-family: "Averta Cyrillic Black Italic";
+  src: url("fonts/Averta/Averta Cyrillic Black Italic.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Black";
+  src: url("fonts/Averta/Averta Cyrillic Black.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Bold Italic";
+  src: url("fonts/Averta/Averta Cyrillic Bold Italic.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Bold";
+  src: url("fonts/Averta/Averta Cyrillic Bold.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Thin Italic";
+  src: url("fonts/Averta/Averta Cyrillic Extra Thin Italic.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Extra Thin";
+  src: url("fonts/Averta/Averta Cyrillic Extra Thin.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Extra Bold Italic";
+  src: url("fonts/Averta/Averta Cyrillic ExtraBold Italic.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Extra Bold";
+  src: url("fonts/Averta/Averta Cyrillic ExtraBold.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Light Italic";
+  src: url("fonts/Averta/Averta Cyrillic Light Italic.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Light";
+  src: url("fonts/Averta/Averta Cyrillic Light.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Regular Italic";
+  src: url("fonts/Averta/Averta Cyrillic Regular Italic.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Regular";
+  src: url("fonts/Averta/Averta Cyrillic Regular.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Seminold Italic";
+  src: url("fonts/Averta/Averta Cyrillic SemiBold Italic.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Semibold";
+  src: url("fonts/Averta/Averta Cyrillic SemiBold.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Thin Italic";
+  src: url("fonts/Averta/Averta Cyrillic Thin Italic.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Thin";
+  src: url("fonts/Averta/Averta Cyrillic Thin.otf"); }
+
+/*
+=====================================================
+                    =    main starts   =
+=====================================================
+*/
+body {
+  background-color: #e8ebee; }
+
+.header {
+  padding-top: 80px;
+  padding-bottom: 73px;
+  border-bottom: 3px solid #ddd; }
+
+.pp00 {
+  padding-left: 0;
+  padding-right: 0; }
+
+.ytb_link {
+  display: inline-block;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 3px 14px;
+  font-size: 11px;
+  font-family: "Averta Cyrillic Bold";
+  text-transform: uppercase;
+  margin-top: 21px;
+  -webkit-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease; }
+  .ytb_link span {
+    font-family: "Averta Cyrillic Light"; }
+
+.ytb_link:hover {
+  color: #fff; }
+
+.head-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.mute-btn {
+  text-transform: uppercase;
+  color: #1c1c1c;
+  background-color: #fff;
+  padding: 3px 14px;
+  font-size: 11px;
+  font-family: "Averta Cyrillic Bold";
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  margin-top: 5px;
+  -webkit-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease; }
+
+.head-title {
+  font-size: 37px;
+  font-family: "Averta Cyrillic Bold";
+  color: #000;
+  padding-left: 21px;
+  padding-right: 28px; }
+
+.play-btn {
+  width: 57px;
+  height: 57px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease; }
+
+.play-btn:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1); }
+
+.copyright {
+  font-family: "Averta Cyrillic Light";
+  font-size: 12px;
+  color: #000;
+  padding-top: 16px;
+  padding-bottom: 16px; }
+
+.content-item {
+  border-bottom: 3px solid #ddd; }
+
+.content-item table {
+  width: 100%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  pointer-events: all; }
+  .content-item table tr .plus-icon {
+    position: relative; }
+    .content-item table tr .plus-icon img {
+      position: absolute;
+      right: 0;
+      top: 11px;
+      opacity: 0.7; }
+  .content-item table tr td {
+    color: #000;
+    font-size: 12px;
+    font-family: "Averta Cyrillic Regular";
+    padding-top: 15px;
+    padding-bottom: 15px; }
+
+.content-item table tr td:first-child {
+  width: 300px; }
+
+.content-item table tr td:nth-child(2) {
+  width: 300px; }
+
+.cnt {
+  position: relative;
+  padding-top: 44px;
+  padding-bottom: 60px;
+  width: 100%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.close-btn {
+  position: absolute;
+  top: 58px;
+  right: 0; }
+  .close-btn img {
+    width: 22px;
+    height: 22px;
+    opacity: 0.7; }
+
+.cnt-subtitle {
+  color: #000;
+  font-size: 16px;
+  font-family: "Averta Cyrillic Regular"; }
+
+.cnt-title {
+  font-size: 50px;
+  font-family: "Averta Cyrillic Bold";
+  color: #000;
+  padding-top: 6px; }
+  .cnt-title a {
+    color: #000;
+    -webkit-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease; }
+    .cnt-title a:hover {
+      color: #007bff; }
+
+.cnt-title sup {
+  text-transform: uppercase;
+  color: #fff;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background-color: #007bff;
+  font-family: "Averta Cyrillic Bold";
+  font-size: 7px;
+  padding: 4px 8px;
+  position: relative;
+  top: -13px; }
+  .cnt-title sup span {
+    font-family: "Averta Cyrillic Light"; }
+
+.cnt-item {
+  margin-bottom: 20px; }
+
+.click-count {
+  font-size: 13px; }
+
+.click-heart {
+  margin-right: 10px;
+  position: relative;
+  top: 2px;
+  display: inline-block; }
+
+.click-heart i {
+  font-size: 19px; }
+
+.red {
+  background: red; }
+
+.table-hidden {
+  visibility: hidden;
+  pointer-events: none; }
+
+.footer {
+  padding-bottom: 50px; }
+
+.dnone {
+  display: none;
+  -webkit-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease; }
+
+.head-left {
+  position: relative; }
+
+.video_iframe {
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  pointer-events: none; }
+
+.click_heart i {
+  font-size: 36px;
+  color: #ff0046;
+  margin-top: 16px; }
+
+.click_heart small {
+  font-size: 16px;
+  position: relative;
+  top: -3px; }
+
+.click_heart .click-heart {
+  cursor: pointer; }
+
+.click-count-mobile {
+  display: none; }
+
+.dnonedesktop {
+  display: none; }
+
+/* starts */
+@media screen and (max-width: 1200px) {
+  .cnt {
+    padding: 20px 20px 40px 20px; }
+  .header .container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px; }
+  .close-btn, .content-item table tr .plus-icon img {
+    right: 20px; }
+  .content-item table tr td:first-child {
+    padding-left: 20px; } }
+
+@media screen and (max-width: 900px) {
+  .content-item table tr td:first-child {
+    width: 260px; }
+  .content-item table tr td:nth-child(2) {
+    width: 180px; } }
+
+@media screen and (max-width: 768px) {
+  .head-title {
+    font-size: 24px;
+    padding-left: 16px; }
+  .play-btn {
+    width: 43px;
+    height: 43px; }
+  .header {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+  .header .container {
+    padding-left: 20px;
+    padding-right: 20px; }
+  .ytb_link {
+    margin-top: 16px; }
+  .cnt-title {
+    font-size: 30px; }
+  .cnt {
+    padding: 0 20px 20px 20px; }
+  .cnt-title {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .cnt-title sup {
+    top: 0;
+    height: 16px;
+    padding-top: 8px; }
+  .main_title span {
+    display: none; }
+  .main_title small, .mobile-send {
+    font-weight: bold; }
+  .click-count-mobile, .dnonedesktop {
+    display: block; }
+  .dnonemobile {
+    display: none; }
+  .dflexmobile {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  .content-item table tr td:first-child, .content-item table tr td:nth-child(2) {
+    width: auto; }
+  .mobile-send, .click-count-mobile {
+    white-space: nowrap; }
+  .click-heart i {
+    color: #ff0046; }
+  .plus-icon {
+    padding-right: 15px; }
+  .mobile-chevron-down {
+    background: #ddd;
+    display: inline-block;
+    height: 13px;
+    width: 24px;
+    -webkit-border-top-left-radius: 90px;
+    border-top-left-radius: 90px;
+    -webkit-border-top-right-radius: 90px;
+    border-top-right-radius: 90px;
+    text-align: center;
+    color: #e8ebee;
+    position: relative;
+    top: 20px; }
+    .mobile-chevron-down i {
+      position: relative;
+      top: -2px;
+      font-size: 10px; }
+  .mobile-chevron-up {
+    background: #ddd;
+    display: inline-block;
+    height: 13px;
+    width: 24px;
+    -webkit-border-top-left-radius: 90px;
+    border-top-left-radius: 90px;
+    -webkit-border-top-right-radius: 90px;
+    border-top-right-radius: 90px;
+    text-align: center;
+    color: #e8ebee;
+    position: relative;
+    bottom: 0; }
+    .mobile-chevron-up i {
+      position: relative;
+      top: -6px;
+      font-size: 10px; }
+  .padding12 {
+    padding-top: 12px !important; }
+  .close-btn {
+    top: auto;
+    bottom: -10px; } }
+
+@media screen and (max-width: 450px) {
+  .head-title {
+    padding-left: 10px; }
+  .header .container, .cnt {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .head-title {
+    font-size: 20px;
+    white-space: nowrap;
+    padding-right: 15px; }
+  .mute-btn {
+    font-size: 9px;
+    padding: 3px 10px; }
+  .ytb_link {
+    font-size: 8px; }
+  .cnt-subtitle {
+    font-size: 14px; }
+  .cnt-title {
+    font-size: 24px; }
+  .cnt-title sup {
+    font-size: 9px; } }
+
+@media screen and (max-width: 400px) {
+  .play-btn {
+    width: 38px;
+    height: 38px; }
+  .mute-btn {
+    font-size: 8px;
+    padding-top: 4px; }
+  .ytb_link {
+    margin-top: 12px; } }
+
+@media screen and (max-width: 350px) {
+  .head-title {
+    font-size: 16px; } }
+
+/*
+=====================================================
+                    =    mobile starts   =
+=====================================================
+*/
+/*
+=====================================================
+                    =    reset starts   =
+=====================================================
+*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+.overflow-hidden {
+  overflow: hidden; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+.display-block {
+  display: block;
+  width: 100%; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none; }
+
+a:link {
+  text-decoration: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  outline: none !important;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+ul li {
+  display: inline-block;
+  list-style-type: none;
+  vertical-align: middle; }
+
+h1 {
+  font-size: 2em; }
+
+h2 {
+  font-size: 1.5em; }
+
+h3 {
+  font-size: 1.17em; }
+
+h4 {
+  font-size: 1.33em; }
+
+h5 {
+  font-size: 0.83em; }
+
+h6 {
+  font-size: 0.67em; }
+
+button {
+  background-color: transparent;
+  outline: none !important;
+  padding: 0;
+  margin: 0;
+  border: none;
+  cursor: pointer; }
+
+.padding-bottom-0 {
+  padding-bottom: 0px !important; }
+
+.full-height {
+  height: 100%; }
+
+.full-width {
+  width: 100%; }
+
+.full {
+  width: 100%;
+  height: 100%; }
+
+.relative {
+  position: relative; }
+
+input[type="password"] {
+  -webkit-text-security: disc; }
+
+/*
+=====================================================
+                    =    fonts starts   =
+=====================================================
+*/
+/* fonts starts*/
+/* Averta */
+/* fonts starts */
+/* Averta */
+@font-face {
+  font-family: "Averta Cyrillic Black Italic";
+  src: url("fonts/Averta/Averta Cyrillic Black Italic.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Black";
+  src: url("fonts/Averta/Averta Cyrillic Black.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Bold Italic";
+  src: url("fonts/Averta/Averta Cyrillic Bold Italic.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Bold";
+  src: url("fonts/Averta/Averta Cyrillic Bold.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Thin Italic";
+  src: url("fonts/Averta/Averta Cyrillic Extra Thin Italic.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Extra Thin";
+  src: url("fonts/Averta/Averta Cyrillic Extra Thin.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Extra Bold Italic";
+  src: url("fonts/Averta/Averta Cyrillic ExtraBold Italic.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Extra Bold";
+  src: url("fonts/Averta/Averta Cyrillic ExtraBold.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Light Italic";
+  src: url("fonts/Averta/Averta Cyrillic Light Italic.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Light";
+  src: url("fonts/Averta/Averta Cyrillic Light.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Regular Italic";
+  src: url("fonts/Averta/Averta Cyrillic Regular Italic.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Regular";
+  src: url("fonts/Averta/Averta Cyrillic Regular.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Seminold Italic";
+  src: url("fonts/Averta/Averta Cyrillic SemiBold Italic.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Semibold";
+  src: url("fonts/Averta/Averta Cyrillic SemiBold.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Thin Italic";
+  src: url("fonts/Averta/Averta Cyrillic Thin Italic.otf"); }
+
+@font-face {
+  font-family: "Averta Cyrillic Thin";
+  src: url("fonts/Averta/Averta Cyrillic Thin.otf"); }
+
+/*
+=====================================================
+                    =    main starts   =
+=====================================================
+*/
+body {
+  background-color: #e8ebee; }
+
+.header {
+  padding-top: 80px;
+  padding-bottom: 73px;
+  border-bottom: 3px solid #ddd; }
+
+.pp00 {
+  padding-left: 0;
+  padding-right: 0; }
+
+.ytb_link {
+  display: inline-block;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 3px 14px;
+  font-size: 11px;
+  font-family: "Averta Cyrillic Bold";
+  text-transform: uppercase;
+  margin-top: 21px;
+  -webkit-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease; }
+  .ytb_link span {
+    font-family: "Averta Cyrillic Light"; }
+
+.ytb_link:hover {
+  color: #fff; }
+
+.head-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.mute-btn {
+  text-transform: uppercase;
+  color: #1c1c1c;
+  background-color: #fff;
+  padding: 3px 14px;
+  font-size: 11px;
+  font-family: "Averta Cyrillic Bold";
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  margin-top: 5px;
+  -webkit-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease; }
+
+.head-title {
+  font-size: 37px;
+  font-family: "Averta Cyrillic Bold";
+  color: #000;
+  padding-left: 21px;
+  padding-right: 28px; }
+
+.play-btn {
+  width: 57px;
+  height: 57px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease; }
+
+.play-btn:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1); }
+
+.copyright {
+  font-family: "Averta Cyrillic Light";
+  font-size: 12px;
+  color: #000;
+  padding-top: 16px;
+  padding-bottom: 16px; }
+
+.content-item {
+  border-bottom: 3px solid #ddd; }
+
+.content-item table {
+  width: 100%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  pointer-events: all; }
+  .content-item table tr .plus-icon {
+    position: relative; }
+    .content-item table tr .plus-icon img {
+      position: absolute;
+      right: 0;
+      top: 11px;
+      opacity: 0.7; }
+  .content-item table tr td {
+    color: #000;
+    font-size: 12px;
+    font-family: "Averta Cyrillic Regular";
+    padding-top: 15px;
+    padding-bottom: 15px; }
+
+.content-item table tr td:first-child {
+  width: 300px; }
+
+.content-item table tr td:nth-child(2) {
+  width: 300px; }
+
+.cnt {
+  position: relative;
+  padding-top: 44px;
+  padding-bottom: 60px;
+  width: 100%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.close-btn {
+  position: absolute;
+  top: 58px;
+  right: 0; }
+  .close-btn img {
+    width: 22px;
+    height: 22px;
+    opacity: 0.7; }
+
+.cnt-subtitle {
+  color: #000;
+  font-size: 16px;
+  font-family: "Averta Cyrillic Regular"; }
+
+.cnt-title {
+  font-size: 50px;
+  font-family: "Averta Cyrillic Bold";
+  color: #000;
+  padding-top: 6px; }
+  .cnt-title a {
+    color: #000;
+    -webkit-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease; }
+    .cnt-title a:hover {
+      color: #007bff; }
+
+.cnt-title sup {
+  text-transform: uppercase;
+  color: #fff;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background-color: #007bff;
+  font-family: "Averta Cyrillic Bold";
+  font-size: 7px;
+  padding: 4px 8px;
+  position: relative;
+  top: -13px; }
+  .cnt-title sup span {
+    font-family: "Averta Cyrillic Light"; }
+
+.cnt-item {
+  margin-bottom: 20px; }
+
+.click-count {
+  font-size: 13px; }
+
+.click-heart {
+  margin-right: 10px;
+  position: relative;
+  top: 2px;
+  display: inline-block; }
+
+.click-heart i {
+  font-size: 19px; }
+
+.red {
+  background: red; }
+
+.table-hidden {
+  visibility: hidden;
+  pointer-events: none; }
+
+.footer {
+  padding-bottom: 50px; }
+
+.dnone {
+  display: none;
+  -webkit-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease; }
+
+.head-left {
+  position: relative; }
+
+.video_iframe {
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  pointer-events: none; }
+
+.click_heart i {
+  font-size: 36px;
+  color: #ff0046;
+  margin-top: 16px; }
+
+.click_heart small {
+  font-size: 16px;
+  position: relative;
+  top: -3px; }
+
+.click_heart .click-heart {
+  cursor: pointer; }
+
+.click-count-mobile {
+  display: none; }
+
+.dnonedesktop {
+  display: none; }
+
+/* starts */
+@media screen and (max-width: 1200px) {
+  .cnt {
+    padding: 20px 20px 40px 20px; }
+  .header .container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px; }
+  .close-btn, .content-item table tr .plus-icon img {
+    right: 20px; }
+  .content-item table tr td:first-child {
+    padding-left: 20px; } }
+
+@media screen and (max-width: 900px) {
+  .content-item table tr td:first-child {
+    width: 260px; }
+  .content-item table tr td:nth-child(2) {
+    width: 180px; } }
+
+@media screen and (max-width: 768px) {
+  .head-title {
+    font-size: 24px;
+    padding-left: 16px; }
+  .play-btn {
+    width: 43px;
+    height: 43px; }
+  .header {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+  .header .container {
+    padding-left: 20px;
+    padding-right: 20px; }
+  .ytb_link {
+    margin-top: 16px; }
+  .cnt-title {
+    font-size: 30px; }
+  .cnt {
+    padding: 0 20px 20px 20px; }
+  .cnt-title {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .cnt-title sup {
+    top: 0;
+    height: 16px;
+    padding-top: 8px; }
+  .main_title span {
+    display: none; }
+  .main_title small, .mobile-send {
+    font-weight: bold; }
+  .click-count-mobile, .dnonedesktop {
+    display: block; }
+  .dnonemobile {
+    display: none; }
+  .dflexmobile {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  .content-item table tr td:first-child, .content-item table tr td:nth-child(2) {
+    width: auto; }
+  .mobile-send, .click-count-mobile {
+    white-space: nowrap; }
+  .click-heart i {
+    color: #ff0046; }
+  .plus-icon {
+    padding-right: 15px; }
+  .mobile-chevron-down {
+    background: #ddd;
+    display: inline-block;
+    height: 13px;
+    width: 24px;
+    -webkit-border-top-left-radius: 90px;
+    border-top-left-radius: 90px;
+    -webkit-border-top-right-radius: 90px;
+    border-top-right-radius: 90px;
+    text-align: center;
+    color: #e8ebee;
+    position: relative;
+    top: 20px; }
+    .mobile-chevron-down i {
+      position: relative;
+      top: -2px;
+      font-size: 10px; }
+  .mobile-chevron-up {
+    background: #ddd;
+    display: inline-block;
+    height: 13px;
+    width: 24px;
+    -webkit-border-top-left-radius: 90px;
+    border-top-left-radius: 90px;
+    -webkit-border-top-right-radius: 90px;
+    border-top-right-radius: 90px;
+    text-align: center;
+    color: #e8ebee;
+    position: relative;
+    bottom: 0; }
+    .mobile-chevron-up i {
+      position: relative;
+      top: -6px;
+      font-size: 10px; }
+  .padding12 {
+    padding-top: 12px !important; }
+  .close-btn {
+    top: auto;
+    bottom: -10px; } }
+
+@media screen and (max-width: 450px) {
+  .head-title {
+    padding-left: 10px; }
+  .header .container, .cnt {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .head-title {
+    font-size: 20px;
+    white-space: nowrap;
+    padding-right: 15px; }
+  .mute-btn {
+    font-size: 9px;
+    padding: 3px 10px; }
+  .ytb_link {
+    font-size: 8px; }
+  .cnt-subtitle {
+    font-size: 14px; }
+  .cnt-title {
+    font-size: 24px; }
+  .cnt-title sup {
+    font-size: 9px; } }
+
+@media screen and (max-width: 400px) {
+  .play-btn {
+    width: 38px;
+    height: 38px; }
+  .mute-btn {
+    font-size: 8px;
+    padding-top: 4px; }
+  .ytb_link {
+    margin-top: 12px; } }
+
+@media screen and (max-width: 350px) {
+  .head-title {
+    font-size: 16px; } }
+
+/*
+=====================================================
+                    =    mobile starts   =
+=====================================================
+*/

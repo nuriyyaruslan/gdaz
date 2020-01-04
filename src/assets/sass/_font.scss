@@ -1,0 +1,106 @@
+// page all color  /
+$white              : #ffffff;
+$black              : #000000;
+
+/* fonts starts*/
+
+@mixin font-family($font, $size , $color, $value:none) {
+    font-size:$size;
+    color: $color;
+    font-family: $font;
+    text-transform: $value;
+}
+
+@mixin font($size , $color, $value:none) {
+    font-size:$size;
+    color: $color;
+    text-transform: $value;
+}
+
+
+// page all font-family 
+/* Averta */
+$regular            : "Averta Cyrillic Regular";
+$bold               : "Averta Cyrillic Bold";
+$semibold           : "Averta Cyrillic Semibold";
+$light              : "Averta Cyrillic Light";
+$blackitalic        : "Averta Cyrillic Black Italic";
+$black              : "Averta Cyrillic Black";
+$bolditalic         : "Averta Cyrillic Bold Italic";
+$extrathinitalic    : "Averta Cyrillic Thin Italic";
+$extrathin          : "Averta Cyrillic Extra Thin";
+$extrabolditalic    : "Averta Cyrillic Extra Bold Italic";
+$extrabold          : "Averta Cyrillic Extra Bold";
+$lightitalic        : "Averta Cyrillic Light Italic";
+$regularitalic      : "Averta Cyrillic Regular Italic";
+$semibolditalic     : "Averta Cyrillic Seminold Italic";
+$thinitalic         : "Averta Cyrillic Thin Italic";
+$thin               : "Averta Cyrillic Thin";
+
+
+/* fonts starts */
+/* Averta */
+@font-face {
+    font-family: $blackitalic;   
+    src: url("fonts/Averta/Averta Cyrillic Black Italic.otf");
+}
+@font-face{
+    font-family: $black;
+    src:url("fonts/Averta/Averta Cyrillic Black.otf")
+}
+@font-face{
+    font-family: $bolditalic;
+    src:url("fonts/Averta/Averta Cyrillic Bold Italic.otf")
+}
+@font-face{
+    font-family: $bold;
+    src:url("fonts/Averta/Averta Cyrillic Bold.otf")
+}
+@font-face{
+    font-family: $extrathinitalic;
+    src:url("fonts/Averta/Averta Cyrillic Extra Thin Italic.otf")
+}
+@font-face{
+    font-family: $extrathin;
+    src:url("fonts/Averta/Averta Cyrillic Extra Thin.otf")
+}
+@font-face{
+    font-family: $extrabolditalic;
+    src:url("fonts/Averta/Averta Cyrillic ExtraBold Italic.otf");
+}
+@font-face{
+    font-family: $extrabold;
+    src:url("fonts/Averta/Averta Cyrillic ExtraBold.otf");
+}
+@font-face{
+    font-family: $lightitalic;
+    src:url("fonts/Averta/Averta Cyrillic Light Italic.otf");
+}
+@font-face{
+    font-family: $light;
+    src:url("fonts/Averta/Averta Cyrillic Light.otf");
+}
+@font-face{
+    font-family: $regularitalic;
+    src:url("fonts/Averta/Averta Cyrillic Regular Italic.otf");
+}
+@font-face{
+    font-family: $regular;
+    src:url("fonts/Averta/Averta Cyrillic Regular.otf");
+}
+@font-face{
+    font-family: $semibolditalic;
+    src:url("fonts/Averta/Averta Cyrillic SemiBold Italic.otf");
+}
+@font-face{
+    font-family: $semibold;
+    src:url("fonts/Averta/Averta Cyrillic SemiBold.otf");
+}
+@font-face{
+    font-family: $thinitalic;
+    src:url("fonts/Averta/Averta Cyrillic Thin Italic.otf");
+}
+@font-face{
+    font-family: $thin;
+    src:url("fonts/Averta/Averta Cyrillic Thin.otf");
+}
